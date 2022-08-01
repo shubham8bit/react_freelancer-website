@@ -6,6 +6,12 @@ import Footer from "./Footer";
 import MastHead from "./MastHead";
 import NavBar from "./NavBar";
 import PortfolioSection from "./PortfolioSection";
+import PortfolioModalOne from "./PortfolioModalOne";
+import PortfolioModalFive from "./PortfolioModalFive";
+import PortfolioModalSix from "./PortfolioModalSix";
+import PortfolioModalTwo from "./PortfolioModalTwo";
+import PortfolioModalThree from "./PortfolioModalThree";
+import PortfolioModalFour from "./PortfolioModalFour";
 
 const App = () => {
   return (
@@ -17,6 +23,12 @@ const App = () => {
       <ContactSection />
       <Footer />
       <CopyRight />
+      <PortfolioModalOne />
+      <PortfolioModalTwo />
+      <PortfolioModalThree />
+      <PortfolioModalFour />
+      <PortfolioModalFive />
+      <PortfolioModalSix />
     </div>
   );
 };
