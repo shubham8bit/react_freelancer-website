@@ -1,6 +1,6 @@
 import React from "react";
 
-const NavBar = () => {
+const NavBar = ({ title = "Title" }) => {
   return (
     <nav
       className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
@@ -8,7 +8,7 @@ const NavBar = () => {
     >
       <div className="container">
         <a className="navbar-brand" href="#page-top">
-          Start Bootstrap
+          {title}
         </a>
         <button
           className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"

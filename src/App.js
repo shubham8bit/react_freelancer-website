@@ -16,13 +16,20 @@ import PortfolioModalFour from "./PortfolioModalFour";
 const App = () => {
   return (
     <div>
-      <NavBar />
-      <MastHead />
+      <NavBar title="My Portfolio" />
+      <MastHead
+        name="Shubham Mangudkar"
+        skills="Software Engineer - Web Dev - Rail Enthusiast"
+      />
       <PortfolioSection />
       <AboutSection />
       <ContactSection />
-      <Footer />
-      <CopyRight />
+      <Footer
+        addline1="Sant Tukaram Nagar"
+        addline2="Pimpri, Pune 411018"
+        abouttext="This website is created with help of React and Bootstrap by"
+      />
+      <CopyRight name="Shubham Mangudkar 2022" />
       <PortfolioModalOne />
       <PortfolioModalTwo />
       <PortfolioModalThree />

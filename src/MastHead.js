@@ -1,6 +1,6 @@
 import React from "react";
 
-const MastHead = () => {
+const MastHead = ({ name = "Name", skills = "Skills" }) => {
   return (
     <header className="masthead bg-primary text-white text-center">
       <div className="container d-flex align-items-center flex-column">
@@ -11,9 +11,7 @@ const MastHead = () => {
           alt="..."
         />
         {/* Masthead Heading */}
-        <h1 className="masthead-heading text-uppercase mb-0">
-          Start Bootstrap
-        </h1>
+        <h1 className="masthead-heading text-uppercase mb-0">{name}</h1>
         {/* Icon Divider */}
         <div className="divider-custom divider-light">
           <div className="divider-custom-line"></div>
@@ -23,9 +21,7 @@ const MastHead = () => {
           <div className="divider-custom-line"></div>
         </div>
         {/* Masthead Subheading */}
-        <p className="masthead-subheading font-weight-light mb-0">
-          Graphic Artist - Web Designer - Illustrator
-        </p>
+        <p className="masthead-subheading font-weight-light mb-0">{skills}</p>
       </div>
     </header>
   );
