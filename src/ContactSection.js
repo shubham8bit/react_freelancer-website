@@ -26,10 +26,7 @@ const ContactSection = () => {
                         <!-- To make this form functional, sign up at-->
                         <!-- https://startbootstrap.com/solution/contact-forms--> */}
             {/* <!-- to get an API token!--> */}
-            <form
-              id="contactForm"
-              data-sb-form-api-token="b4af3bf7-dd35-452c-b7d5-af883fffba36"
-            >
+            <form id="contactForm" data-sb-form-api-token="REACT_APP_API_TOKEN">
               {/* <!-- Name input--> */}
               <div className="form-floating mb-3">
                 <input
