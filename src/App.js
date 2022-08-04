@@ -28,6 +28,7 @@ const App = () => {
         addline1="Sant Tukaram Nagar"
         addline2="Pimpri, Pune 411018"
         abouttext="This website is created with help of React and Bootstrap by"
+        linkedInURL="https://www.linkedin.com/in/shubh-mangudkar"
       />
       <CopyRight name="Shubham Mangudkar 2022" />
       <PortfolioModalOne />

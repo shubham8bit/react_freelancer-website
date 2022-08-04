@@ -4,6 +4,7 @@ const Footer = ({
   addline1 = "Address Line 1",
   addline2 = "Address Line 2",
   abouttext = "About text",
+  linkedInURL = "LinkedIn URL",
 }) => {
   return (
     <footer className="footer text-center">
@@ -27,7 +28,12 @@ const Footer = ({
             <a className="btn btn-outline-light btn-social mx-1" href="#!">
               <i className="fab fa-fw fa-twitter"></i>
             </a>
-            <a className="btn btn-outline-light btn-social mx-1" href="#!">
+            <a
+              className="btn btn-outline-light btn-social mx-1"
+              href={linkedInURL}
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fab fa-fw fa-linkedin-in"></i>
             </a>
             <a className="btn btn-outline-light btn-social mx-1" href="#!">
